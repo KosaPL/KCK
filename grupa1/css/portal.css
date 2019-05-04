@@ -1,0 +1,106 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #000;
+    background-color: #E0F0B1;
+}
+
+container {
+    width: 96%;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.info, .categories, .authors, .contact, .university {
+    padding: 50px 0px;
+}
+
+.info {
+    background-color: #B5C272;
+    color: black;
+}
+
+.info .title {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.info .description {
+    line-height: 26 px;
+}
+
+.info .motto {
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+}
+
+.categories {
+    background-color: #808C23;
+}
+
+.categories .glyphicon {
+    font-size: 52px;
+    color: black;
+}
+.categories .glyphicon:hover {
+    font-size: 58px;
+    text-shadow: 0 0 15px #333;
+    transition:  0.5s;
+}
+
+.frame {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.authors {
+    background-color: #AEBF2A;
+}
+
+.authors h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.authors p {
+    font-size: 16px;
+    font-style: italic;
+    padding: 30px 2%;    
+}
+
+.authors .carousel .carousel-indicators {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    text-align: right;
+    bottom: 0;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: #F2F2F2;
+}
+
+.carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    background: #0D0D0D;
+    border: 3px solid #fff;
+}
+
+.contact {
+    background-color: #B5C272;
+    color: #fff;
+}
+
+.contact .btn {
+    background-color: black;
+    color: white;
+}
+
+.university {
+    background-color: aliceblue;
+    color: #fff;
+}
